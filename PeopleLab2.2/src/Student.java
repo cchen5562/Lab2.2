@@ -14,4 +14,6 @@ public class Student extends Person
 		this.Grade = Grade;
 		this.Tardies = Tardies;
 	}
+	
+	
 }

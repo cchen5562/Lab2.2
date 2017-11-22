@@ -11,4 +11,6 @@ public class Teacher extends Person
 		this.Subject = Subject;
 		this.Title = Title;
 	}
+	
+	
 }
