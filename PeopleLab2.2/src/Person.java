@@ -1,10 +1,60 @@
 
-public abstract class Person 
+public abstract class Person extends Classroom
 {
-	//fields
+	//fields 
+	        //Alt + Shift + S to generate Getters and Setters
 	private int height; //inches
 	private String firstName, familyName;
-	private double weight; //pound
+	private double weight; //pounds
+	
+	
+		public int getHeight() 
+		{
+			return height;
+		}
+
+
+		public void setHeight(int height)
+		{
+			this.height = height;
+		}
+
+
+		public String getFirstName() 
+		{
+			return firstName;
+		}
+
+
+		public void setFirstName(String firstName)
+		{
+			this.firstName = firstName;
+		}
+
+
+		public String getFamilyName() 
+		{
+			return familyName;
+		}
+
+
+		public void setFamilyName(String familyName) 
+		{
+			this.familyName = familyName;
+		}
+
+
+		public double getWeight() 
+		{
+			return weight;
+		}
+
+
+		public void setWeight(double weight) 
+		{
+			this.weight = weight;
+		}
+	
 	
 	public Person(int height, String firstName, String familyName, double weight)
 	{
@@ -13,6 +63,7 @@ public abstract class Person
 		this.familyName = familyName;
 		this.weight = weight;
 	}
+	
 	
 	public abstract String toString();
 }

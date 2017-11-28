@@ -7,6 +7,37 @@ public class Student extends Person
 	private int Tardies; //how many student has been late to school
 							//starts at 0, plus one every time they are late
 	
+		public double getGPA() 
+		{
+			return GPA;
+		}
+
+		public void setGPA(double gPA) 
+		{
+			GPA = gPA;
+		}
+
+		public int getGrade() 
+		{
+			return Grade;
+		}
+
+		public void setGrade(int grade) 
+		{
+			Grade = grade;
+		}
+
+		public int getTardies() 
+		{
+			return Tardies;
+		}
+
+		public void setTardies(int tardies) 
+		{
+			Tardies = tardies;
+		}
+
+		
 	public Student (int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies)
 	{
 		super (height, firstName, familyName, weight);
