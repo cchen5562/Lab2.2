@@ -2,35 +2,31 @@
 public class Classroom 
 {
 	//fields
-	private Person[] Student;
-	private Person Teacher;
+	private Person[] students;
+	private Person teacher;
 	
 	public Classroom (Person[] Student, Person Teacher) 
 	{
-		this.Student = Student;
-		this.Teacher = Teacher;
+		this.students = Student;
+		this.teacher = Teacher;
 		
 	}
 	
 	public String getSubject (String Subject)
 	{
-		return (Teacher.getSubject(Subject));
+		return (teacher.getSubject(Subject));
 	}
 	
-	public double classAverage (double classAverage)
+	public double classAvg ()
 	{
-		return 
-	}
-	
-	public static void sumUpTo(double GPA) {
-		int o;
-		int z = 0;
-		for(o = 0; o <= p; o++) {
-			if(o < p) {
-				z = o + z;
-			} else {
-			System.out.println(z + p);
+		double total = 0.0;
+		for(Person p : this.students)
+		{
+			if (p instanceof Student)
+			{
+				total = total + (Student)p.getGPA();
 			}
 		}
+		return total/this.students.length();
 	}
 }
