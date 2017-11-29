@@ -46,5 +46,10 @@ public class Student extends Person
 		this.Tardies = Tardies;
 	}
 	
-	
+
+	@Override
+	public String toString() 
+	{
+		return (getFamilyName() + ", " + getFirstName());
+	}
 }

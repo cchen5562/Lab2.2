@@ -12,9 +12,9 @@ public class Classroom
 		
 	}
 	
-	public String getSubject (String Subject)
+	public String getSubject ()
 	{
-		return (teacher.getSubject(Subject));
+		return (((Teacher)teacher).getSubject());
 	}
 	
 	public double classAvg ()
@@ -24,9 +24,14 @@ public class Classroom
 		{
 			if (p instanceof Student)
 			{
-				total = total + (Student)p.getGPA();
+				total = total + ((Student)p).getGPA();
 			}
 		}
-		return total/this.students.length();
+		return total/this.students.length;
+	}
+	
+	public static void printClass()
+	{
+		System.out.println(students.toString());
 	}
 }

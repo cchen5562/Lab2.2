@@ -34,5 +34,11 @@ public class Teacher extends Person
 		this.Title = Title;
 	}
 	
-	
+	@Override
+	public String toString() 
+	{
+		return ("Teacher: " + Title + ". " + getFamilyName());
+		
+	}
+
 }

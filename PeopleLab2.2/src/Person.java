@@ -1,5 +1,5 @@
 
-public abstract class Person extends Classroom
+public abstract class Person
 {
 	//fields 
 	        //Alt + Shift + S to generate Getters and Setters
