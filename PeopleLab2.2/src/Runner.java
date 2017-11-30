@@ -3,22 +3,20 @@ public class Runner
 {
 	public static void main(String[] args)
 	{
-		//fields
-		static String[] firstNames; //a pre-made list of first names
-		//Joyin, Yojin, Cristina, Tina, Anna, Jason, Derick, 
-		static String[] familyNames; //a pre-made list of family names
+		static String[] firstName;
 		
-		private Teacher;
-		private Student;
-		private Classroom;
+		Student s = new Student(10, Joyin, Wong, 100, 2.0, 12, 300);
+		Student s1 = new Student();
+		Student s2 = new Student();
+		Student s3 = new Student();
+		Student s4 = new Student();
+		Student s5 = new Student();
+		Student s6 = new Student();
+		Student s7 = new Student();
+		Student s8 = new Student();
+		Student s9 = new Student();
+		Student s10 = new Student();
+		Student s11 = new Student();
 		
-		public Runner (Person Person; Person Teacher; Person Student; Classroom Classroom)
-		{
-			super(Person, Teacher, Student, Classroom);
-			this.Teacher = Teacher;
-			this.Student = Student;
-			this.Classroom = Classroom;
-			
-		}
 	}
 }
