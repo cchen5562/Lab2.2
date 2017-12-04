@@ -2,13 +2,13 @@
 public class Classroom 
 {
 	//fields
-	private Person[] students;
+	private Person[] student;
 	private Person teacher;
 	
-	public Classroom (Person[] Student, Person Teacher) 
+	public Classroom(Person[] student, Person teacher) 
 	{
-		this.students = Student;
-		this.teacher = Teacher;
+		this.student = student;
+		this.teacher = teacher;
 		
 	}
 	
@@ -20,18 +20,24 @@ public class Classroom
 	public double classAvg ()
 	{
 		double total = 0.0;
-		for(Person p : this.students)
+		for(Person p : this.student)
 		{
 			if (p instanceof Student)
 			{
 				total = total + ((Student)p).getGPA();
 			}
 		}
-		return total/this.students.length;
+		return total/this.student.length;
 	}
 	
-	public static void printClass()
+	public String printClass()
 	{
-		System.out.println(students.toString());
+		String totalClassstud = ((Teacher)this.teacher).getTitle() + ((Teacher)this.teacher).toString() + " \nSubject: " + ((Teacher)this.teacher).getSubject() + " \nStudents in class: ";
+		
+		for(int i = 0; i < this.student.length; i++)
+		{
+			totalClassstud += ((Student)this.student[i]).toString();  
+		}
+		return totalClassstud;
 	}
 }
