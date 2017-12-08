@@ -34,57 +34,56 @@ public class Runner
 
 	}
 	
-	Person [0] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [1] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [2] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [3] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [4] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [5] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [6] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [7] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [8] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [9] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [10] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [11] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [12] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [13] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [14] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [15] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [16] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [17] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [18] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [19] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [20] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [21] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [22] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [23] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [24] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [25] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [26] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [27] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [28] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [29] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [30] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [31] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [32] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
-	Person [33] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [0] = new Student();
+	Person [1] = new Student();
+	Person [2] = new Student();
+	Person [3] = new Student();
+	Person [4] = new Student();
+	Person [5] = new Student();
+	Person [6] = new Student();
+	Person [7] = new Student();
+	Person [8] = new Student();
+	Person [9] = new Student();
+	Person [10] = new Student();
+	Person [11] = new Student();
+	Person [12] = new Student();
+	Person [13] = new Student();
+	Person [14] = new Student();
+	Person [15] = new Student();
+	Person [16] = new Student();
+	Person [17] = new Student();
+	Person [18] = new Student();
+	Person [19] = new Student();
+	Person [20] = new Student();
+	Person [21] = new Student();
+	Person [22] = new Student();
+	Person [23] = new Student();
+	Person [24] = new Student();
+	Person [25] = new Student();
+	Person [26] = new Student();
+	Person [27] = new Student();
+	Person [28] = new Student();
+	Person [29] = new Student();
+	Person [30] = new Student();
+	Person [31] = new Student();
+	Person [32] = new Student();
+	Person [33] = new Student();
 	
 	
-	//public static Student ranStudent()      //random student generator
-	//{
-	//	Random r = new Random();
-	//	height = r.nextInt(26) + 58;		//58 to 84 inches
-	//	String firstNames = r.firstNames[r.nextInt(firstNames.length())];
-	//	String familyNames = r.familyNames[r.nextInt(familyNames.length())];
-	//	weight = r.nextInt(100) + 90; 		//90 to 190 pounds
+	public static Student ranStudent()      //random student generator
+	{
+		Random r = new Random();
+		height = r.nextInt(26) + 58;		//58 to 84 inches
+		String firstNames = r.firstNames[r.nextInt(firstNames.length())];
+		String familyNames = r.familyNames[r.nextInt(familyNames.length())];
+		weight = r.nextInt(100) + 90; 		//90 to 190 pounds
+		randGPA;
 		
-		
-	//}
+	}
 	
 	public static int randGPA (double GPA) 
 		{
 		GPA [] = {2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.8, 3.9, 4.0}; //GPA 2.5-4.0
 		GPA = r.GPA
-	
 		}
 }
