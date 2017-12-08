@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Student extends Person 
 {
@@ -46,6 +47,16 @@ public class Student extends Person
 		this.Tardies = Tardies;
 	}
 	
+	public static Student randomStudent()      //random student generator
+	{
+		Random r = new Random();
+		height = r.nextInt(26) + 58;		//58 to 84 inches
+		String firstNames = r.firstNames[r.nextInt(firstNames.length())];
+		String familyNames = r.familyNames[r.nextInt(familyNames.length())];
+		weight = r.nextInt(100) + 90; 		//90 to 190 pounds
+		ra
+		
+	}
 
 	@Override
 	public String toString() 
