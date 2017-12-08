@@ -34,16 +34,52 @@ public class Runner
 
 	}
 	
-	public static Student ranStudent()      //random student generator
-	{
-		Random r = new Random();
-		height = r.nextInt(26) + 58;		//58 to 84 inches
-		String firstNames = r.firstNames[r.nextInt(firstNames.length())];
-		String familyNames = r.familyNames[r.nextInt(familyNames.length())];
-		weight = r.nextInt(100) + 90; 		//90 to 190 pounds
+	Person [0] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [1] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [2] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [3] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [4] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [5] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [6] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [7] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [8] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [9] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [10] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [11] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [12] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [13] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [14] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [15] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [16] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [17] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [18] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [19] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [20] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [21] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [22] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [23] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [24] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [25] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [26] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [27] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [28] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [29] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [30] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [31] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [32] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	Person [33] = new Student(int height, String firstName, String familyName, double weight, double GPA, int Grade, int Tardies);
+	
+	
+	//public static Student ranStudent()      //random student generator
+	//{
+	//	Random r = new Random();
+	//	height = r.nextInt(26) + 58;		//58 to 84 inches
+	//	String firstNames = r.firstNames[r.nextInt(firstNames.length())];
+	//	String familyNames = r.familyNames[r.nextInt(familyNames.length())];
+	//	weight = r.nextInt(100) + 90; 		//90 to 190 pounds
 		
 		
-	}
+	//}
 	
 	public static int randGPA (double GPA) 
 		{
